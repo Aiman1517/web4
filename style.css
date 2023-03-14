@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    color:#000;
+    font-size: 15px;
+    line-height:1.5 ;
+
+}
+
+a{
+    color: #262626;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.main-nav ul{
+    display: flex;
+
+}
+
+.main-nav ul li{
+    padding: 0 10px;
+}
+
+.main-nav ul.main-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.main-nav .logo{
+    width: 108px;
+}
+
+.main-nav ul li a:hover{
+    border-bottom: 2px solid #262626;
+}
+.main-nav ul li a{
+    padding-bottom: 2px;
+}
+/* showcase */
+.Btn{
+    cursor:pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 12px 12px;
+    background-color: #0067B8;
+    color: #fff;
+    font-size: 14px;
+}
+.Btn:hover{
+    opacity: 0.9;
+}
+.showcase{
+    width: 100%;
+    height: 442px;
+    background: url('./images/showcase.jpeg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    padding-right: 901px;
+    color: #fff;
+}
+
+.showcase h2, .showcase p{
+    padding-bottom: 10px;
+}
+.showcase p{
+    font-size: 16px;
+}
+
+.showcase h2{
+    font-size: 37px;
+}
+
+.showcase .Btn{
+    margin-top: 20px;
+}
+
+/* For cards */
+
+.cards{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin-top: 150px;
+    grid-gap: 20px;
+}
+
+.cards img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cards h3{
+    margin-bottom: 5px;
+    font-size: 29px;
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif";
+}
+
+.cards a{
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067B8;
+    font-weight: bold;
+}
+
+.cards a:hover i{
+    margin-left: 10px;
+}
+/* Inbox */
+.inbox{
+    width: 100%;
+    height: 442px;
+    background: url('./images/inbox.webp') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    padding-right: 901px;
+    color: #000;
+    margin-top: 132px;
+    margin-bottom: 132px;
+
+}
+
+.Bttn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 12px 12px;
+    background-color: #0067B8;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Bttn:hover{
+    opacity: 0.9;
+}
+
+.inbox h2, .inbox p{
+    padding-bottom: 10px;
+}
+.inbox p{
+    font-size: 16px;
+}
+.inbox h2{
+    font-size: 37px;
+}
+
+.inbox .Bttn{
+    margin-top: 20px;
+}
+/* cards1 */
+.cards1{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.cards1 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cards1 h3{
+    margin-bottom: 5px;
+    font-size: 29px;
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif";
+}
+
+.cards1 a{
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067B8;
+    font-weight: bold;
+}
+.cards1 a:hover i{
+    margin-left: 10px;
+}
+
